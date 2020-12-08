@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1">
+    <Button
+        android:text="Pepe clicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/backtopepe"/>
+    <TextView
+        android:text="0 PEPES"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="36.0dp"
+        android:textAlignment="center"
+        android:id="@+id/currencyclick" />
+    <ImageButton
+        android:src="@drawable/pepeprice25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/storebutton1"
+        android:layout_weight="1"
+        android:background="#fd7c21"/>
+    <ImageButton
+        android:src="@drawable/pepeprice25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/storebutton2"
+        android:layout_weight="1"
+        android:background="#f4f340"/>
+
+    <ImageButton
+        android:src="@drawable/pepeprice25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/storebutton3"
+        android:layout_weight="1"
+        android:background="#009520"/>
+    <ImageButton
+        android:src="@drawable/pepeprice25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/storebutton4"
+        android:layout_weight="1"
+        android:background="#2f61fe"
+        />
+    <ImageButton
+        android:src="@drawable/pepeprice25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/storebutton5"
+        android:layout_weight="1"
+        android:background="#9d3196"/>
+</LinearLayout>
